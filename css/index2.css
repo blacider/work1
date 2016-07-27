@@ -1,0 +1,1936 @@
+@charset1"UTF-8";
+html * {
+	font-family:"Noto Sans CJK SC", "Source Han Sans CN";
+}
+#up {
+  position: fixed;
+  z-index: 20;
+  width: 4%;
+  right: 48%;
+  top: 1%;
+}
+#background {
+	background-image: url('../img/bg.jpg');
+	-webkit-background-size: cover;
+	        background-size: cover;
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 1262%;
+	width: 100%;
+	background-position: center;
+	background-position-y: -10%;
+}
+#thread {
+	z-index: -1;
+	position: absolute;
+	left: 3%;
+	top: 255%;
+	height: 980%;
+	width: 100%;
+}
+#thread img{
+	position: absolute;
+	left: 0;
+	height: 100%;
+}
+.bg2 {
+
+}
+.bg3 {
+
+}
+#loading{
+	z-index: 2;
+	position:absolute;
+	width:50%;
+	top:25%;
+	left:25%;
+}
+#loading img {
+	position: absolute;
+	width: 40%;
+	left: 30%;
+}
+.top {
+	z-index: 1;
+}
+.mid 1
+	z-index: 0;
+}
+.bottom {
+	z-index: -1;
+}
+img {
+	max-width: 100%;
+}
+.content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+}
+.swiper-container {
+	width: 100%;
+	height:100%;
+}
+.shadow {
+	text-shadow: -2px 0px 8px black;
+}
+/*----------------page1-----------------*/
+.page1-mid {
+	top:2%;
+}
+.page1-mid img{
+	width: 100%;
+	top: 2%;
+	position: absolute;
+	left: 0;
+}
+.page1 .bottom {
+	top:1%;
+}
+.page1-text1 {
+	position: absolute;
+	width: 57%;
+	left: 21%;
+	top: 15%;
+	bottom: 81%;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 1.3s;
+       -moz-animation-delay: 1.3s;
+         -o-animation-delay: 1.3s;
+        -ms-animation-delay: 1.3s;
+            animation-delay: 1.3s;
+}
+.page1-text2 {
+	position: absolute;
+	width: 78%;
+	left: 11%;
+	top: 31%;
+	bottom: 70%;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 1.3s;
+       -moz-animation-delay: 1.3s;
+         -o-animation-delay: 1.3s;
+        -ms-animation-delay: 1.3s;
+            animation-delay: 1.3s;
+}
+.page1-text3 {
+	position: absolute;
+    font-size: 4em;
+    bottom: 4%;
+    -webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 0.3s;
+       -moz-animation-delay: 0.3s;
+         -o-animation-delay: 0.3s;
+        -ms-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+}
+p {
+	margin: 0;
+	text-align: center;
+}
+.page1-plane {
+  position: absolute;
+  bottom: 17%;
+  left: 18%;
+  width: 65%;
+    -webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 0.3s;
+       -moz-animation-delay: 0.3s;
+         -o-animation-delay: 0.3s;
+        -ms-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+    -webkit-animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+         -o-animation-iteration-count: infinite;
+        -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+/*----------------page2-----------------*/
+.page2-water2 {
+	position: absolute;
+	bottom: -7%;
+	left: -4%;
+}
+.page2-water1 {
+	position: absolute;
+	bottom: -17%;
+	left: -4%;
+}
+.page2-m {
+	position: absolute;
+	width: 100%;
+	height: 22%;
+}
+.page2-m div {
+	height: inherit;
+	width: 16%;
+	float: left;
+	margin-right:9%; 
+	position: relative;
+	z-index: 2;
+}
+.page2-m div img{
+	max-height: 100%;
+}
+.page2-m-1 {
+	top:-5%;
+	left: 2%;
+}
+.page2-m-2 {
+	top:-10%;
+	left: -2%;
+}
+.page2-m-3 {
+	top:-5%;
+	left: 5%;
+}
+.page2-m-4 {
+	top:23%;
+	left: 14%;
+}
+.page2-step1 {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -52%;
+	width: 68%;
+	height: 18%;
+	-webkit-animation-duration: 0.7s;
+       -moz-animation-duration: 0.7s;
+         -o-animation-duration: 0.7s;
+        -ms-animation-duration: 0.7s;
+            animation-duration: 0.7s;
+    -webkit-animation-delay: 0.3s;
+       -moz-animation-delay: 0.3s;
+         -o-animation-delay: 0.3s;
+        -ms-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+}
+.page2-6-81 {
+  width: 37%;
+  left: 10%;
+  bottom: 147%;
+}
+.page2-79 {
+  position: absolute;
+  left: 67%;
+  top: 13%;
+  width: 25%;	
+}
+.page2-circle3 {
+  left: 76%;
+  width: 5%;
+  bottom: 79%;
+}
+.page2-695 {
+  position: absolute;
+  width: 61%;
+  left: 4%;
+  top: 15%;
+  -webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 5s;
+       -moz-animation-delay: 5s;
+         -o-animation-delay: 5s;
+        -ms-animation-delay: 5s;
+            animation-delay: 5s;
+}
+.page2-22 {
+  position: absolute;
+  left: 70%;
+  top: 6%;
+  width: 19%;
+}
+.page2-circle4 {
+  left: 92%;
+  width: 5%;
+  bottom: 90%;
+}
+.page2-dayup {
+  position: absolute;
+  left: 26%;
+  bottom: 61%;
+  width: 30%;
+}
+.page2-9 {
+  position: absolute;
+  left: 29%;
+  bottom: 51%;
+  width: 25%;
+}
+.page2-step1 * {
+	position: absolute;
+	font-size: 0.4em;
+}
+.page2-step1 p {
+    top :-79%;
+    left: 13%;
+}
+.page2-circle1 {
+	width: 6%;
+	position: absolute;
+	left: 25%;
+	top: -54%;
+}
+.page2-sign1 {
+	position: absolute;
+	top: -84%;
+	left: 9%;
+	width: 39%;
+}
+.page2-plane {
+	top:-36%;
+	left: 17%;
+	width: 23%;
+}
+.page2-guapai {
+	position: absolute;
+    width: 32%;
+    left: 12%;
+    bottom: 212%;
+}
+.page2-step3 {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page2-step3 p {
+	position: absolute;
+    top: 41.5%;
+    width: 27%;
+    left: 28%;
+    font-size: 0.4em;
+}
+.page2-step3 h1 {
+  position: absolute;
+  width: 34%;
+  font-size: 0.7em;
+  color: white;
+  top: 30%;
+  left: 23%;
+}
+.page2-circle2 {
+  position: absolute;
+  left: 38%;
+  bottom: 50%;
+  width: 5%;
+}
+.page2-sign2 {
+  position: absolute;
+  left: 27%;
+  bottom: 50%;
+  width: 29%;
+}
+.page2-step4 {
+	  position: absolute;
+    left: 23%;
+    width: 59%;
+    font-size: 3em;
+    margin-left: 16%;
+    bottom: 19%;
+    text-shadow: 4px 5px 9px black;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.5s;
+       -moz-animation-delay: 2.5s;
+         -o-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+.page2-step6 {
+	  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 3.5s;
+       -moz-animation-delay: 3.5s;
+         -o-animation-delay: 3.5s;
+        -ms-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+}
+.page2-step6 * {
+	position: absolute;
+}
+.page2-step6 p {
+	top: 33px;
+	left: 117px;
+	font-size: 0.4em;
+}
+.page2-step6 h1 {
+	top: 0;
+	left: 0;
+	font-size: 0.6em;
+	color: rgb(2,108,186);
+}
+.page3 .bottom img {
+	min-width: 110%;
+	position: absolute;
+	left: -7px;
+	bottom: 100px;
+}
+.page3 .bottom .page3-b-m {
+	bottom: 4px;
+}
+/*----------------page3-----------------*/
+.page3-step1 {
+	position: absolute;
+    width: 100%;
+  /* height: 1em; */
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
+.page3-413 {
+	  position: absolute;
+  left: 10%;
+  width: 31%;
+  bottom: 17%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.page3-87 {
+	position: absolute;
+  bottom: 21%;
+  width: 30%;
+  left: 47%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+        -ms-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+.page3-what {
+	position: absolute;
+  width: 254%;
+  left: -81%;
+  top: -80%;
+  max-width: 245%;
+  	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2s;
+       -moz-animation-delay: 2s;
+         -o-animation-delay: 2s;
+        -ms-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.page3-step2 {
+	position: absolute;
+	width: 52%;
+	height: 2em;
+	bottom: 55%;
+	left: 25%;
+}
+.page3-circle2 {
+  position: absolute;
+  width: 10%;
+  left: 82%;
+  bottom: -7%;
+  	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page3-circle1 {
+	position: absolute;
+  width: 6%;
+  left: 58%;
+  bottom: 20%;
+  	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.page3-com {
+	  position: absolute;
+  top: 61%;
+  width: 115%;
+  max-width: 200%;
+  left: -36%;
+  margin: 0;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page3-step3 {
+  position: absolute;
+  width: 38%;
+  left: 15%;
+  top: 4%;
+  height: auto;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 2.5s;
+       -moz-animation-delay: 2.5s;
+         -o-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+.page3-cloud-text {
+  position: absolute;
+  top: 26%;
+  left: 21%;
+  width: 55%;
+}
+.page3-star2 {
+	left: 70%;
+	top: 11%;
+	width: 22%;
+}
+.star {
+	position: absolute;
+}
+.page3-star1-1 {
+	left: 17%;
+	top: 4%;
+	width: 8%;
+}
+.page3-star1-2 {
+	left: 43%;
+	top: 11%;
+	width: 5%;
+}
+.page3-star1-3 {
+	left: 77%;
+	top: 58%;
+	width: 8%;
+}
+.page3-star3 {
+	left: 4%;
+	top: 31%;
+	width: 28%;
+}
+/*----------------page4-----------------*/
+.page4 {
+	z-index: 1;
+}
+.page4 .mid {
+	height: 5%;
+	top: 89%;
+}
+.page4 .mid img {
+	width: 10%;
+}
+.page4-cloud1 {
+	position: absolute;
+	bottom: -7%;
+	left: 91%;
+}
+.page4-cloud2 {
+	position: absolute;
+	bottom: -37%;
+	left: 61%;
+}
+.page4-cloud3 {
+	position: absolute;
+	bottom: 23%;
+	left: 29%;
+}
+.page4-cloud4 {
+	position: absolute;
+	bottom: -5%;
+	left: 2%;
+}
+.page4 .bottom {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.page4 .bottom img {
+	min-width: 100%;
+	min-height: 100%;
+}
+.page4-step1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.page4-text {
+  position: absolute;
+  width: 65%;
+  left: 18%;
+  top: 28%;
+  max-width: 200%;
+}
+.page4-circle1 {
+  position: absolute;
+  width: 6%;
+  left: 22%;
+  top: 54%;
+}
+.page4-niu {
+	  position: absolute;
+  left: 28%;
+  top: 42%;
+}
+.page4 .top {
+	top:0;
+}
+
+.page4-title {
+	position: absolute;
+	bottom: 13%;
+	left: 3%;
+	width: 50%;
+}
+.page4-title p {
+	position: absolute;
+	left: 3%;
+	top: 24%;
+	font-size: 0.45em;
+}
+.page4-circle2 {
+  position: absolute;
+  width: 17%;
+  left: -19%;
+}
+.page4-step2 {
+  position: absolute;
+  width: 32%;
+  left: 21%;
+  top: 19%;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 1.1s;
+       -moz-animation-delay: 1.1s;
+         -o-animation-delay: 1.1s;
+        -ms-animation-delay: 1.1s;
+            animation-delay: 1.1s;
+}
+.page4-star {
+	position: absolute;
+	left: 63%;
+	top: 18%;
+}
+.page4-video {
+  position: absolute;
+  width: 98%;
+  height: 15%;
+  left: 1%;
+  top: 1%;
+  font-size: 0.3em;
+  	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 2.1s;
+       -moz-animation-delay: 2.1s;
+         -o-animation-delay: 2.1s;
+        -ms-animation-delay: 2.1s;
+            animation-delay: 2.1s;
+}
+.img-top p{
+	top: 74%;
+}
+.img-top img{
+	position: absolute;
+	top: -6%;
+	left: 1%;
+}
+.img-bottom img {
+	position: absolute;
+	left: -4%;
+	top: 35%;
+}
+.page4-video-zh {
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.1s;
+       -moz-animation-delay: 2.1s;
+         -o-animation-delay: 2.1s;
+        -ms-animation-delay: 2.1s;
+            animation-delay: 2.1s;
+}
+.page4-video-hy {
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.6s;
+       -moz-animation-delay: 2.6s;
+         -o-animation-delay: 2.6s;
+        -ms-animation-delay: 2.6s;
+            animation-delay: 2.6s;
+}
+.page4-video-wh {
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 3.1s;
+       -moz-animation-delay: 3.1s;
+         -o-animation-delay: 3.1s;
+        -ms-animation-delay: 3.1s;
+            animation-delay: 3.1s;
+}
+.page4-video-jd {
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 3.6s;
+       -moz-animation-delay: 3.6s;
+         -o-animation-delay: 3.6s;
+        -ms-animation-delay: 3.6s;
+            animation-delay: 3.6s;
+}
+.page4-video-fc {
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 4.1s;
+       -moz-animation-delay: 4.1s;
+         -o-animation-delay: 4.1s;
+        -ms-animation-delay: 4.1s;
+            animation-delay: 4.1s;
+}
+/*----------------page5-----------------*/
+.page5 {
+	z-index: 1;
+}
+.page5 .bottom img {
+	min-width: 100%;
+	min-height: 100%;
+}
+.page5-star {
+  position: absolute;
+  width: 34%;
+  top: 3%;
+  left: -11%;
+}
+.page5-step1 {
+	position: absolute;
+	width: 40%;
+	left: 50%;
+	height: 100%;
+	top: 17%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.page5-step1 img {
+	position: absolute;
+  width: 127%;
+  max-width: 200%;
+  left: -17%;
+  top: -11%;
+}
+.page5-step2 img {
+  position: absolute;
+  width: 127%;
+  max-width: 200%;
+  left: -17%;
+  top: -9%;
+}
+.page5-step3 img {
+	  position: absolute;
+  width: 127%;
+  max-width: 200%;
+  left: -17%;
+  top: -6%;
+}
+.page5-step4 img {
+	  position: absolute;
+  width: 127%;
+  max-width: 200%;
+  left: -17%;
+  top: -0%;
+}
+.page5-step5 img {
+	  position: absolute;
+  width: 127%;
+  max-width: 200%;
+  left: -17%;
+  top: 6%;
+}
+.page5-step6 img {
+	  position: absolute;
+  width: 127%;
+  max-width: 200%;
+  left: -17%;
+  top: 10%;
+}
+.page5-step2 {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 50%;
+	top: 24%;
+  z-index: -1;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+        -ms-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+.page5-step3 {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 50%;
+	top: 27%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.page5-step4 {
+	position: absolute;
+	width: 40%;
+	left: 50%;
+	height: 100%;
+	top: 42%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page5-step5 {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 51%;
+	top: 49%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2s;
+       -moz-animation-delay: 2s;
+         -o-animation-delay: 2s;
+        -ms-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.page5-step6 {
+	position: absolute;
+	width: 40%;
+	left: 52%;
+	top: 60%;
+	height: 100%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.5s;
+       -moz-animation-delay: 2.5s;
+         -o-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+/*----------------page6-----------------*/
+.page6-step1 {
+	position: absolute;
+bottom: 6%;
+  left: 53%;
+  width: 27%;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.page6-circle1 {
+  position: absolute;
+  left: -12%;
+  top: 89%;
+  width: 10%;
+}
+.page6-step3 {
+	position: absolute;
+	bottom: 25%;
+	left: 47%;
+	width: 53%;
+	-webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.page6-step3-text {
+	font-size: 2.5em;
+	display: inline;
+	width: 90%;
+	font-weight: bold;
+	text-shadow:-2px 2px black;
+}
+.page6-step3 span {
+	font-size: 0.4em;
+}
+.page6-star1 {
+	width: 31%;
+	position: absolute;
+	bottom: 29%;
+	left: 4%;
+}
+.page6-star2 {
+	width: 10%;
+	position: absolute;
+	bottom: 48%;
+	left: 72%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page6-circle2 {
+position: absolute;
+  width: 11%;
+  left: -18%;
+  top: 108%;
+}
+.page6-circle3 {
+  position: absolute;
+  width: 15%;
+  left: -47%;
+  top: 58%;
+}
+.page6-step4 {
+  position: absolute;
+  width: 43%;
+  left: 57%;
+  bottom: 75%;
+  font-size: 0.5em;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page6-step5 {
+  position: absolute;
+  width: 31%;
+  left: 51%;
+  bottom: 46%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2s;
+       -moz-animation-delay: 2s;
+         -o-animation-delay: 2s;
+        -ms-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.page6-step6 {
+  position: absolute;
+  width: 30%;
+  left: 13%;
+  bottom: 67%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.5s;
+       -moz-animation-delay: 2.5s;
+         -o-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+/*----------------page7-----------------*/
+.page7-circle1 {
+	position: absolute;
+	width: 14%;
+	left: -38%;
+	top: 30%;
+}
+.page7-circle2 {
+	position: absolute;
+	width: 14%;
+	left: -38%;
+	top: 30%;
+}
+.page7-circle3 {
+  position: absolute;
+  width: 10%;
+  left: -34%;
+  top: 30%;
+}
+.page7-circle4 {
+  position: absolute;
+  width: 9%;
+  left: -16%;
+  top: 14%;
+}
+.page7-circle5 {
+  position: absolute;
+  width: 10%;
+  left: -26%;
+  top: 9%;
+}
+.page7-circle6 {
+  position: absolute;
+  width: 10%;
+  left: -26%;
+  top: 9%;
+}
+.page7-bg {
+	position: absolute;
+	width: 111%;
+	bottom: -1%;
+	left: -6%;
+}
+.page7-bg2 {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: -4%;
+}
+.page7-bg3 {
+	position: absolute;
+	width: 19%;
+	left: 78%;
+	bottom: 9%;
+}
+.page7-step1 {
+  width: 36%;
+  position: absolute;
+  bottom: 18%;
+  left: -3%;
+  height: 26%;
+
+}
+.page7-step1-1 {
+  width: 100%;
+  position: absolute;
+  bottom: 72%;
+  left: 10%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.page7-step1-2 {
+  width: 95%;
+  position: absolute;
+  bottom: 29%;
+  left: 12%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+        -ms-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+.page7-step1-3 {
+	width: 55%;
+	position: absolute;
+	bottom: -5%;
+	left: 27%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.page7-bird1 {
+  position: absolute;
+  width: 40%;
+  left: 75%;
+  top: 70%;
+}
+.page7-bird2 {
+	position: absolute;
+	width: 42%;
+	left: 9%;
+	top: 7%;
+}
+.page7-text h1 {
+	width: 90%;
+	text-shadow: -1px 4px 12px black;
+	margin:0;
+    clear: both;
+    font-size: 0.7em;
+}
+.page7-text p {
+	width: 56%;
+	font-size: 0.3em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: rgb(71,117,101);
+	text-shadow: -1px 3px 12px black;
+}
+.page7-text {
+	position: absolute;
+	width: 28%;
+	height: 8%;
+	color: black;
+}
+.page7-step2-5 {
+  left: 46%;
+  bottom: 12%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page7-step2-4 {
+	left: 52%;
+	bottom: 25%;
+	color: rgb(129,161,158);
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2s;
+       -moz-animation-delay: 2s;
+         -o-animation-delay: 2s;
+        -ms-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.page7-step2-3 {
+	left: 51%;
+	bottom: 38%;
+	width: 44%;
+	color: rgb(93,133,129);
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.5s;
+       -moz-animation-delay: 2.5s;
+         -o-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+.page7-step2-2 {
+left: 47%;
+  bottom: 51%;
+  width: 50%;
+	color: rgb(45,73,70);
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 3s;
+       -moz-animation-delay: 3s;
+         -o-animation-delay: 3s;
+        -ms-animation-delay: 3s;
+            animation-delay: 3s;
+}
+.page7-step2-1 {
+  left: 49%;
+  bottom: 63%;
+  width: 42%;
+	color: rgb(45,73,70);
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 3.5s;
+       -moz-animation-delay: 3.5s;
+         -o-animation-delay: 3.5s;
+        -ms-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+}
+.page7-step3 {
+	position: absolute;
+	width: 38%;
+top: 20%;
+  left: 47%;
+	color: black;
+	font-size: 0.4em;
+	text-shadow: -1px 3px 12px black;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 4s;
+       -moz-animation-delay: 4s;
+         -o-animation-delay: 4s;
+        -ms-animation-delay: 4s;
+            animation-delay: 4s;
+}
+.page7-step4 {
+	position: absolute;
+	width: 49%;
+	height: 40%;
+	left: 41%;
+	top: 1%;
+}
+.page7-author {
+	position: absolute;
+	width: 34%;
+}
+.page7-step4-eyh {
+}
+.page7-author p{
+	color: black;
+	font-size: 0.3em;
+	margin-top: -27%;
+}
+.page7-step4-my {
+  left: 12%;
+  top: 6%;
+  width: 43%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 4.5s;
+       -moz-animation-delay: 4.5s;
+         -o-animation-delay: 4.5s;
+        -ms-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+}
+.page7-step4-hy {
+left: 70%;
+  top: 4%;
+  width: 49%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 5s;
+       -moz-animation-delay: 5s;
+         -o-animation-delay: 5s;
+        -ms-animation-delay: 5s;
+            animation-delay: 5s;
+}
+/*----------------page8-----------------*/
+.ani1 {
+	visibility: hidden;
+}
+.page8-bird {
+position: absolute;
+  width: 50%;
+  left: 45%;
+  top: 51%;
+}
+.page8-circle1 {
+	  width: 7%;
+  left: -10%;
+  position: absolute;
+  bottom: 45%;
+}
+.page8-circle2 {
+	  width: 7%;
+  left: -9%;
+  position: absolute;
+  bottom: 45%;
+}
+.page8-step2 {
+  position: absolute;
+  width: 62%;
+  left: 39%;
+  bottom: 14%;
+}
+.page8-step3 {
+	position: absolute;
+  width: 56%;
+  left: 39%;
+  top: 36%;
+	padding: 3%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+        -ms-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+.page8-step3 p {
+	text-align: left;
+}
+.page8-step4 {
+	width: 50%;
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	font-size: 0.4em;
+	color: rgb(84,41,10);
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.page8-big {
+	font-size: 4em;
+	color: rgb(87,170,178);
+	font-weight: bold;
+}
+.page8-step4 p {
+	text-align: left;
+}
+/*----------------page9-----------------*/
+.page9-title {
+	  width: 58%;
+  position: absolute;
+  right: 0;
+  bottom: 7%;
+}
+.page9-step1 {
+	right: 10%;
+  position: absolute;
+  width: 84%;
+  bottom: 41%;
+}
+.page9-step1-0 {
+	position: absolute;
+	width: 100%;
+	left: 10%;
+	top: 10%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+        -ms-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+.page9-step2 {
+	position: absolute;
+	width: 20%;
+	left: 5%;
+	top: 4%;
+	font-size: 0.4em;
+	color: rgb(92,181,174);
+	font-weight: bold;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.page9-point {
+	position: absolute;
+	left: 29%;
+	top: 27%;
+	width: 27%;
+	visibility:hidden;
+}
+.page9-step3 {
+	position: absolute;
+  width: 76%;
+  left: 43%;
+  top: -14%;
+	font-size: 0.4em;
+	color: black;
+	font-weight: bold;
+	height: 40%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page9-pie {
+	position: absolute;
+  width: 100%;
+  height: 100%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+       -moz-animation-delay: 1.5s;
+         -o-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.page9-step3 img {
+	position: absolute;
+	left: -51%;
+	top: 45%;
+	min-width: 123%;
+}
+.page9-pie3 {/*2s top5%*/
+	position: relative;
+	width: 100%;
+	top: 18%;
+	left: 0;
+}
+.page9-pie2 {
+  position: absolute;
+  width: 52%;
+  left: 27%;
+  top: 33%;
+}
+.page9-pie2-t {
+	position: absolute;
+  width: 48.5%;
+  top: 36%;
+  left: 29%;
+	overflow: hidden;
+	height: 20%;
+	-webkit-border-bottom-left-radius: 50%;
+	        border-bottom-left-radius: 50%;
+    -webkit-border-bottom-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+    -webkit-transform:rotate(0deg);
+}
+#page9-step3-1 {
+	min-width: 0%;
+	width: 43%;
+	position: absolute;
+	left: 75%;
+	top: 47%;
+	visibility: hidden;
+}
+.page9 p {
+	text-align: left;
+}
+.page9-step4 {
+	position: absolute;
+	width: 33%;
+	left: 58%;
+	top: 32%;
+	font-size: 0.3em;
+	color: black;
+	font-weight: bold;
+	color: rgb(54,87,84);
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.5s;
+       -moz-animation-delay: 2.5s;
+         -o-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+.page9-step4-1 {
+	font-size: 3.7em;
+}
+/*----------------page10-----------------*/
+.fengxian {
+	  position: absolute;
+  left: 0;
+  bottom: 24%;
+  width: 42%;
+}
+.page10 .top h1 {
+	font-size: 0.7em;
+	position: absolute;
+	width: 33%;
+	left: 33%;
+	bottom: 1%;
+	color: black;
+	font-weight: bold;
+	text-shadow: -2px 3px 7px black;
+}
+.page10-step {
+	text-shadow: -2px 3px 10px black;
+	font-weight: bold;
+	position: absolute;
+	font-size: 0.5em;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.page10-step1 {
+	width: 24%;
+	left: 39%;
+	top: 72%;
+	color: black;
+}
+.page10-step2 {
+	width: 51%;
+	left: 44%;
+	top: 40%;
+	height: 31%
+}
+.page10-circle2 {
+  position: absolute;
+  width: 6%;
+  left: -16%;
+  bottom: 25%;
+}
+.page10-step3 {
+width: 68%;
+  left: 28%;
+  color: black;
+  top: 37%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2s;
+       -moz-animation-delay: 2s;
+         -o-animation-delay: 2s;
+        -ms-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.page10-plane {
+	width: 13%;
+	position: absolute;
+	left: 31%;
+	top: 1%;
+}
+.page10-star {
+	position: absolute;
+	width: 32%;
+	left: 61%;
+	top: 26%;
+}
+.page10-circle1 {
+	  position: absolute;
+  width: 4%;
+  bottom: 10%;
+  left: 36%;
+}
+#chart {
+	width: 100%;
+	height: 78%;
+	position: absolute;
+	left: 0;
+	top: 41%;
+}
+.page10-step2-text {
+	color: black;
+	font-size: 0.8em;
+	left: -31%;
+	top: 47%;
+	position: absolute;
+	width: 35%;
+	text-shadow: -2px 3px 10px black;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+        -ms-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+.ani2 {
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.chart-index {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.chart-y {
+	position: absolute;
+	left: -6%;
+	top: -5%;
+}
+.chart-x-1 {
+	position: absolute;
+	left: 11%;
+	top: -20%;
+	font-size: 0.5em;
+}
+.chart-x-2 {
+	position: absolute;
+	left: 57%;
+	top: -20%;
+	font-size: 0.5em;
+
+}
+.chart-x-3 {
+	position: absolute;
+	left: 17%;
+	top: 34%;
+	font-size: 0.5em;
+	visibility: hidden;
+}
+.chart-x-4 {
+	visibility: hidden;
+	position: absolute;
+	left: 51%;
+	top: 66%;
+	font-size: 0.5em;
+}
+.chart-main {
+	overflow: hidden;
+	height: 0%;
+}
+.page10-pie {
+	position: absolute;
+	width: 100%;
+	left: -9%;
+	top: 0;
+	height: 100%;
+	-webkit-animation-duration: 0.5s;
+       -moz-animation-duration: 0.5s;
+         -o-animation-duration: 0.5s;
+        -ms-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 2.5s;
+       -moz-animation-delay: 2.5s;
+         -o-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+.page10-pie3 {
+  position: absolute;
+  left: 51%;
+  top: 14%;
+  width: 49%;
+}
+.page10-pie2 {
+	width: 100%;
+	/* 2.5s -> 5.7% */
+}
+.page10-pie2-t {
+  position: absolute;
+  width: 44.7%;
+  top: 14.7%;
+  left: 54.2%;
+  overflow: hidden;
+  height: 12.3%;
+}
+.page10-pie1 {
+  width: 42%;
+  position: absolute;
+  left: 14%;
+  top: 8%;
+	visibility:hidden;
+}
+/*----------------page11-----------------*/
+.page11-plane {
+position: absolute;
+  width: 23%;
+  left: 9%;
+  bottom: 83%;
+}
+.page11 .top h1 {
+	font-size: 1em;
+	position: relative;
+	top: 16%;
+}
+.page11-20151 {
+	  width: 52%;
+  top: 10%;
+  position: absolute;
+  left: 24%;
+}
+.page11-main {
+	width: 50%;
+	height: 28%;
+	position: absolute;
+	left: 25%;
+	top: 33%;
+}
+.page11-main div a {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+.page11-up {
+  position: absolute;
+  left: -1%;
+  top: -2%;
+}
+#page11-down {
+	position: absolute;
+	color: black;
+	font-size: 1em;
+	width: 54%;
+	left: 23%;
+	top: 18%;
+}
+/*----------------page12-----------------*/
+.page12-logo {
+	width: 30%;
+	position: absolute;
+	left: 64%;
+	bottom: 10%;
+}
+.end2 {
+	  position: absolute;
+  left: 10%;
+  bottom: 23%;
+  width: 87%;
+}
+.end1 {
+	position: absolute;
+  left: 16%;
+  width: 68%;
+  bottom: 40%;
+}
+.page12-img {
+  width: 58%;
+  position: absolute;
+  left: 21%;
+  bottom: 70%;
+}
+.page12 .bottom {
+    width: 31%;
+    height: 30%;
+	left: 0%;
+	bottom: 32%;
+}
+.page12 .bottom img {
+	max-width: 200%;
+	width: 167%;
+}
+.page12-text {
+	position: absolute;
+	font-size: 0.3em;
+	text-shadow: -1px 3px 12px black;
+	width: 100%;
+}
+.page12-text1 {
+	left: 21%;
+	top: 35%;
+	width: 58%;
+}
+.page12-text2 {
+	left: 26%;
+	top: 39%;
+	width: 48%;
+}
+.page12-text3 {
+	left: 33%;
+	top: 57%;
+	width: 34%;
+}
+/*----------------animate---------------*/
+#music1 {
+	position: fixed;
+	z-index: 20;
+	width: 13%;
+  right: 3%;
+  top: 3%;
+}
+.bug {
+  width: 83%;
+  left: 8%;
+}
+.bug1 {
+    width: 94%;
+  left: 3%;
+}
+#bug2 {
+  margin-top: -9%;
+}
+#bug3 {
+  top: -3%;
+}
